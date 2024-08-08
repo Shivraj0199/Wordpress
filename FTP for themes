@@ -1,0 +1,7 @@
+sudo yum install vsftpd
+// Very-secured file transfer protocol
+sudo service vsftpd start
+sudo add user vsftpd
+// Add username as you want
+sudo passwd vsftpd
+// Add password
